@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f607f24-5afa-45c6-a7b9-8ccb9659b13b" name="Changes" comment="" />
+    <list default="true" id="9f607f24-5afa-45c6-a7b9-8ccb9659b13b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Etiqueta/application/EtiquetaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Etiqueta/domain/Etiqueta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Etiqueta/domain/EtiquetaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Etiqueta/infrastructure/EtiquetaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Reserva/application/ReservaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Reserva/domain/Reserva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Reserva/domain/ReservaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Reserva/infrastructure/ReservaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Salon/application/SalonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Salon/domain/Salon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Salon/domain/SalonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Salon/infrastructure/SalonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Usuario/application/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Usuario/domain/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Usuario/domain/UsuarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/Usuario/infrastructure/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/auth/application/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/auth/domain/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/auth/dto/JwtAuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/auth/dto/LoginReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/auth/dto/RegisterReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/auth/exceptions/UserAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/auth/services/UserDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/auth/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/auth/utils/AuthorizationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/config/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hkt/src/main/java/com/example/hkt/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hkt/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hkt/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hkt/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hkt/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +45,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2gn2dgk04q4wY4FIvfZJmF3mx1X" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,7 +57,11 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jorge l/Desktop/dbp/hkt",
+    "last_opened_file_path": "C:/Users/jorge l/Desktop/dbp/pc1-yoryilv",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -44,7 +83,11 @@
       <option name="presentableId" value="Default" />
       <updated>1716319110050</updated>
       <workItem from="1716319111199" duration="30000" />
+      <workItem from="1716333805460" duration="1348000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
